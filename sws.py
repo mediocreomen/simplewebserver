@@ -17,9 +17,9 @@ CWD = os.getcwd()
 
 # A lookup for code meanings, will make doings logs and responses easier
 RESPONSE_CODE_MEANINGS = {0: "HTTP/1.0 000 I Messed Up Real Bad Somewhere LMAO",
-                200: "HTTP/1.0 200 OK",
-                400: "HTTP/1.0 400 Bad Request",
-                404: "HTTP/1.0 404 Not Found",}
+                200: "HTTP/1.1 200 OK",
+                400: "HTTP/1.1 400 Bad Request",
+                404: "HTTP/1.1 404 Not Found",}
 
 
 # Holds an HTTP request, weither it be full or not
